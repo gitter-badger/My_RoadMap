@@ -1,0 +1,106 @@
+
+
+ZERO TO DANGEROUS IN 8 WEEKS
+
+OBJECTIVE
+By the end of this guide, you'll be able to design, develop, and deploy
+rock solid enterprise strength web or mobile apps using the same tools and
+techniques used by world-class developers all over the globe:
+
+	- Git, GitHub
+	- HTML5, CSS3, JavaScript
+	- MySQL || Cassandra, Express, Angular, Node, Socket.io
+
+	- Elasticsearch, Piwik
+
+	- OWASP
+
+	- Heroku, Amazon Web Services
+
+	- WebStorm
+	- Bootstrap, Underscore, Grunt, Bower, Font Awesome, Modernizr
+	- Mocha, Chai, Sinon, Karma, Jasmine
+	- Asana
+	- PhoneGap
+
+	- Stack Overflow
+
+With that knowledge, you'll be thus able to build any and all kinds of apps
+imaginable: chat clients, search engines, social apps, CMS, analytics, real
+time UIs, e-commerce websites... Your powers will be without limit.
+
+
+BASELINE 
+	- WEEK 2
+		Be able to wire up a full featured Node.js & MySQL app by the end of the 
+		week 
+		- Become faster
+			- Typing
+			- Code editor
+			- Terminal
+		- Program dependencies
+			- module.exports and require()
+				- using self written programs
+				- using core Node programs
+				- using programs from NPM
+		- Express
+			- Dependencies
+			- Configuration
+			- Routing
+		- Give assignment
+			- Understand Node blocking/non-blocking I/O and callbacks
+			- Wire up own app that displays the rest of phones.json
+			- Grok JavaScript functions, objects and arrays
+			- phones.js as faux database
+
+		- Express
+			- Middleware
+			- Error handling
+			- MVC pattern
+		- Throw in MySQL 
+			- Creating databases/tables
+			- Connecting
+			- Querying
+
+	- WEEK 3
+		Be able to wire up a truly MEAN + Socket.io app by the end of the week
+
+		- Bootstrap, Angular, Socket.io
+		-
+
+	- WEEK 4
+		- Git, MySQL
+			-
+
+	- WEEK 5
+		- Git + MEAN stack + Socket.io + Bootstrap
+			- Introduce 
+			- 7 apps in 7 days
+
+	- WEEK 6
+		- Unit/E2E testing, Grunt
+			- Write comprehensive unit/E2E tests for completed 7 apps
+
+	- WEEK 7
+		- OWASP top 10
+			- Reproduce, exploit and patch vulnerabilities in completed 7 apps
+
+	- WEEK 8
+		- Monitor, benchmark and set up completed 7 apps for massive scale
+		-
+
+
+SELF DIRECTED PERFECTION 
+	- Total JavaScript fluency
+	- Total MySQL (or preferred database) && Express && Angular && Node fluency
+	- Total Socket.io fluency
+	- Total Git fluency
+	- Total unit/E2E test writing fluency
+	- Total application security, monitoring, benchmarking, and scaling fluency
+
+	- PhoneGap
+	- Elasticsearch, Piwik
+	- Heroku || AWS
+	- Cassandra
+
+	- Build an exact copy of Facebook as an exercise
