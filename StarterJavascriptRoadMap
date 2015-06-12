@@ -1,0 +1,113 @@
+Javascript No Programming
+Weeks 1 and 2
+
+Week 1: Making a Website with HTML and CSS; Learn JavaScript Data Types, Functions, Control Flow, and Loops
+Codecademy.com: If you do not already know HTML and CSS, complete the Web Fundamentals Track on Codecademy.
+Codecademy.com: Then follow the Make a Website track to make your first little website, using what you learned above.
+Beginning JavaScript: Read Chapter 1 (Introduction to JavaScript and the Web) and Chapter 2 (Data Types and Variables).
+Beginning JavaScript: Read Chapter 3 (Decisions, Loops, and Functions).
+Codecademy.com: Work through the JavaScript Track on Codecademy. Specifically, work through these sections: “Introduction to JavaScript,” “Functions,” “‘For’ Loops in JavaScript,” “‘While’ Loops in JavaScript,” and “Control Flow.”
+Beginning JavaScript: Read Chapter 4 (Common Mistakes, Debugging, and Error Handling).
+
+Week 2: Learn JavaScript Objects, the Browser Object Model (BOM), and Events; Learn jQuery
+Beginning JavaScript: Read Chapter 5 (JavaScript — An Object- Based Language).
+JavaScriptIsSexy.com: Read my article, JavaScript Objects in Detail
+Codecademy.com: Work through the last three sections of the Codecademy JavaScript track: “Data Structures,” “Objects 1,” and “Objects 2.”
+Beginning JavaScript: Read Chapter 6 (Programming the Browser).
+Beginning JavaScript: Read Chapter 15 (JavaScript Frameworks), and stop just after you complete this section: “Digging Deeper Into jQuery”.
+Codecademy.com: Work through the entire jQuery Track on Codecademy.
+
+
+...................................................................................................................................
+
+
+
+Weeks 3 and 4
+
+Week 3: HTML Forms and Frames; JavaScript Strings; Build Your First Interactive Website
+Beginning JavaScript: Read Chapter 7 (HTML Forms: Interacting with the User).
+Beginning JavaScript: Read Chapter 8 (Windows and Frames).
+Beginning JavaScript: Read Chapter 9 (String Manipulation).
+Codecademy.com: Now, make your first cool website. Work through the entire Make an Interactive Website track on Codecademy.
+
+Week 4: JavaScript Date, Timers, and Cookies
+Beginning JavaScript: Read Chapter 10 (Date, Time, and Timers).
+Beginning JavaScript: Read Chapter 11 (Storing Information: Cookies).
+
+
+........................................................................................................................................
+
+
+Weeks 5 and 6
+
+Week 5: JavaScript “this,” Variable Scope, and Hoisting, the DOM, JavaScript XML, and AJAX
+JavaScriptIsSexy.com: Read my post JavaScript Variable Scope and Hoisting Explained
+JavaScriptIsSexy.com: Read my post Understand JavaScript’s “this” With Clarity, and Master It
+Beginning JavaScript: Read Chapter 12 (Dynamic HTML and the W3C Document Object Model).
+Beginning JavaScript: Read Chapter 14 (Ajax).
+
+Week 6: Build a Real-World JavaScript Quiz Application
+At this juncture, you have learned enough to build a solid JavaScript web application. Don’t proceed any further until you can successfully build this application I describe below. Don’t be afraid to ask questions on Stack Overflow, and do reread sections of the book to properly understand the concepts.
+
+You are building a JavaScript quiz web application (you will use HTML and CSS as well) that will function as follows:
+
+It is a simple quiz that has radio button choices, and it will show the quiz taker his or her score upon completion.
+The quiz can show any number of questions and any number of choices.
+Tally the user’s score and display the final score on the last page. The last page will only show the score, so remove the last question.
+Use an array to store all the questions. Each question, along with its choices and correct answer, should be stored in an object. The array of questions should look similar to this (Notice that only one question is in this example array; you will add many questions):
+
+var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswer:0}];
+
+Dynamically (with document.getElementById or jQuery) remove the current question and add the next question, when the user clicks the “Next” button. The Next button will be the only button to navigate this version of the quiz.
+You can ask for help in the comments below or preferably on Stack Overflow. You will likely to get a prompt and accurate answer on Stack Overflow.
+Improve Your Quiz
+You should be very comfortable with JavaScript, probably feeling like a Jedi. No, you are not. Not yet. You must keep using your newly acquired knowledge and skills as often as possible to keep learning and improving.
+
+Improve Your Quiz Application From Earlier:
+
+Add client-side data validation: make sure the user answers each question before proceeding to the next question.
+Add a “Back” button to allow the user to go back and change her answer. The user can go back up to the first question. For the questions that the user has answered already, be sure to show the radio button selected, so that the user is not forced to answer the questions again, which she has completed.
+Use jQuery to add animation (fade out the current question and fade in the next question).
+Test the quiz on IE 9, and fix any bugs. This will give you a good workout 😉
+Store the quiz questions in an external JSON file.
+Add user authentication: allow users to log in, and save their login credentials to local storage (HTML5 browser storage).
+Use cookies to remember the user, and show a “Welcome, ‘First Name'” message when the user returns to the quiz.
+
+
+...............................................................................................................................................
+
+
+Week 7(Extra Credit)
+Getting Started with Git; Objective Oriented Javscript; Improve Your Quiz Even More.
+1. CodeSchool.com : take the free Try Git course.
+2.JavascriptIsSexy.com: Read my post,, OOP In JavaAcript:What You NEED to know.
+3.Improve Your Application Even Further:
+	-- Use Bootstrap for the entire page layout, including the quiz elements to make it look more polished. As an added bonus, use the tabs user interface component from bootstrap and show different quizzez, one on each tab.
+	--Learn Handlebars.js and add handlebars.js templating to the quiz. You Should no longer have any HTML in your javascript code. Your Quiz is getting more advanced, bit by bit.
+	--Keep a record of all the users who take quiz and show each user how his or her score ranks among the scores from other quiz takers.
+4.Later(after you have learned Backbone.js and Node.js or Meteor.js), you can use these technologies to refactor your quiz code and turn the same quiz into a sophisticated, single-page, mordern web application built with the latest javascript frameworks. And you will store the users' authentification credentials and scores in a MongoDB database.
+5.Next: Decide on a personal project to build, start building your project promptly(While everything remains fresh in your memory). Use the book as a reference. And of course be an active member on Stack Overflow.
+
+
+Continue Improving
+
+Learn Backbone.js Completely, if you want to be a front-end developer or learn how to develop web applications with a JavaScript front-end framework.
+Alternatively, if you want to develop complete applications, that is, the front-end and the backend, learn Meteor.js properly.
+
+At this point, you will definitely need my book, MongoDB for JavaScript Applications, to help you build your own jQuery, Backbone.js, Node.js, or Meteor.js applications, since none of the noted resources, or any other book for that matter, cover MongoDB in depth for JavaScript applications.
+Learn Intermediate and Advanced JavaScript//javascripyissexy
+Learn Node.js Completely and With Confidence//javascripyissexy
+
+
+Words of Encouragement
+
+I wish you success with your studies and in your JavaScript career. Never give up! When you are struggling and feeling incompetent (you may from time to time), always remember that most (probably all) programmers, new and experienced alike, feel this way sometimes, or have felt this way at some point during their programming career.
+
+Remember to dig deep and don’t get frustrated; just carry on and stick with the task until you figure it out, for a worthwhile reward awaits you when you triumph in the end: programming is fun, liberating, and lucrative. The ecstasy one gets from building an application is a powerful feeling that you must experience to understand. Even more satisfying, however, is the empowerment you experience when you realize you have attained the skill and knowledge to build applications from scratch, to change the world with any idea you dream up.
+
+The moment will come when you realize that all the difficulties you endured were worth while. Just as the millions before you have triumphed, so too, you will vanquish the toughest bugs, master the incomprehensible topics, and overcome the seemingly impossible tasks.
+
+Feel free to share your links with us below when you build something, even if it is a tiny, itsy-bitsy project. :)
+
+
+(From javascriptissexy.com)
