@@ -1,0 +1,92 @@
+(Learn Intermediate and Advanced JavaScript Concepts and Techniques in 2 Weeks)
+Prerequisite:
+You have completed this course: Learn JavaScript Properly (For NON-JavaScript programmers and First-time Programmers)
+
+Or you already know the following JavaScript concepts well:
+— Simple Data Types, Reference Types, Operators, and Objects (in Detail)
+— Variable Scope and Hoisting, Expressions, Statements, and JSON
+— DOM, The Window Object, JavaScript Events, and Handling Errors
+— Functions, Function Properties, Function Expression, and AJAX
+— Basic Regular Expressions and Modules
+
+Duration:
+2 Weeks
+
+I submit to you an instructive course on intermediate and advanced JavaScript. The skills you will learn in this course of study will free you from the constrains of using the limited JS techniques you have been using to develop JS applications, and they will give you new insights and new techniques—a Jedi’s temperament and stature—to program JS applications with ease, efficiency, and precision.
+If you are new to JavaScript and you are an experienced programmer in another language such as Java, Python, ActionScript, Rails, and PHP, it is important that you learn JavaScript properly. JavaScript has many idiosyncrasies and uncommon concepts that you must know well before you follow this Intermediate to Advanced JavaScript course.
+
+What Topics Compose “Intermediate and Advanced JavaScript”?
+
+Intermediate and Advanced JavaScript topics include:
+— Debugging JS in the browser, Object-oriented JavaScript
+— Advanced Functions: Callback functions, Bind, Curry, IIFE (Immediately Invoked Function Expression)
+— Asynchronous execution, timers, Prototypal Inheritance, and Closures
+— JavaScript Design Patterns, Object Creation Patterns, and Code Reuse Patterns
+— Code Minification and Compression, Loading Strategies, and Dependency Management
+
+Why Should I Learn Advanced JavaScript?
+
+If you work as a font-end developer or you plan to develop JavaScript applications, libraries, or frameworks, it is essential that you understand the aforementioned advanced JavaScript topics, because you will not be able to develop complex JavaScript applications without knowing them.
+
+Moreover, when you are familiar with all the best JavaScript techniques, even if you don’t remember how to use them, you can easily look them up and use them in powerful ways to make your application run faster, load faster, use less code, reuse code, and perform optimally. Overall, you will use JavaScript as a Jedi would a lightsaber—you will easily vanquish every JS challenge with ease , eliminate bugs with relish, and execute tasks in an instant, compared with your previous apprentice self
+
+Resources For This Course
+
+We are using 2 books; fear not, both books are short reads. So the reading is relatively light; we can carry on with our weekly customs as we study advanced JavaScript in 2 weeks. Here are the books we are using (the 2 books will cost just under $30):
+
+This first one is available in paperback on Amazon:
+Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript. This is my favorite JavaScript book.
+As noted in the comments by Erica, you can also get the “eBook format (epub, mobi, and pdf) on the InformIT website at this link:
+http://www.informit.com/store/effective-javascript-68-specific-ways-to-harness-the-9780321812186
+
+And this one:
+Preferably the eBook (Kindle):
+JavaScript Patterns
+Or in Paperback: JavaScript Patterns
+
+The Roadmap to Advanced JavaScript
+You will learn just about all the JavaScript advanced techniques and details about JavaScript’s most important concepts that you will use often as a JavaScript Developer.
+
+If you don’t have enough time to commit to read the books in 2 weeks, try to do it in no more than 3 weeks. The longer you take, the harder it will be for you to grasp and remember everything you will learn.
+
+Get WebStorm, If You Don’t Have It
+
+If you plan to be a JavaScript developer or use JavaScript often, you should take a break now and download a trial copy of WebStorm.
+
+It is unquestionably the best editor (IDE) for programming JavaScript. It costs $49.00 when your 30-day trial period expires, but it is probably the best investment you will make as a JavaScript developer, besides buying the books you are using in this course and learning advanced JavaScript.
+Make sure you set WebStorm to use JSHint. JSHint is “tool to detect errors and potential problems in JavaScript code and to enforce your team’s coding conventions.”[1].
+Moreover, WebStorm is a world-class, professional-grade IDE for coding professional JavaScript web applications, so you will use it a lot. And it integrates Node.js, Git, and other JavaScript frameworks, so even after you have become a rock star JavaScript developer, you will be using it, unless a more compelling JavaScript IDE comes out in the next few months.
+I should also mention Sublime Text 2, which is the next best JavaScript editor. But it is not as feature rich and complete (even with numerous add-on packages) as WebStorm. I use Sublime Text 2 to make small edits to files of different programming languages, including JS files. But I don’t use it to program full JavaScript web applications.
+Week 1 (Essential JavaScript Techniques)
+
+Read the entire Effective JavaScript book.
+This is my favorite JavaScript book. Every page is packed with incredible tips and insightful techniques. I kept whispering, “A Ha,” on many pages.
+It provides you with 68 excellent JavaScript techniques and concepts that you need to know as a JavaScript developer.
+
+While reading the book, practice the concepts in WebStorm or your browser’s console to reinforce and completely understand the topics through hands-on practice. Simply trying to memorize everything you have learned without practicing is a great way to ensure you will forget them and never completely understand them.
+Week 2 (Complete JavaScript Jedi Training)
+
+Since we are trained JavaScript apprentices, we needn’t develop an application while learning the advanced JavaScript techniques. We only have to know and understand all the advanced techniques, so we can whip them out and use them or look them up and use them, when the need arises.
+Read the entire JavaScript Patterns book.
+
+Optional: Since there are a few hours to spare this week, you should have enough time to watch Douglas Crockford’s Advanced JavaScript Videos. They are not too lengthy.
+Further Reading
+
+The following books provide additional advanced topics that you should know well if you do indeed want to be a an advanced JavaScript developer. Why come 90% of way, take it home the last 10% with the following books.
+
+For Techniques in Developing Faster JavaScript Web Applications:
+Read High Performance JavaScript (Build Faster Web Application Interfaces).
+Learn About Testing Your JavaScript Applications:
+Buy
+Kindle Version: Test-Driven JavaScript Development
+Or the Paperback Version: Test-Driven JavaScript Development
+
+If You Are Developing JavaScript Libraries and Frameworks:
+Read Secrets of the JavaScript Ninja by jQuery creator John Resig.
+Final Words
+
+JavaScript is a fun and lovable programming language, and with it, you will be able to quickly develop sophisticated web applications that hundreds of millions of users can use within hours of completion. There is much satisfaction from being a JavaScript developer, and indeed much pleasure. Share some of your newly acquired advanced JavaScript skills with others and be a good steward for advancing the web and creating applications that users love.
+
+To become an advanced JS programmer you need to combine real-world programming experience at all levels and in various forms (developing disparate applications with myriad technologies, libraries and frameworks), and implementation of the advanced techniques learned. So it is imperative that you put the skills and techniques you have learned from this course into practice—when you are developing web applications.
+
+Have fun developing and keep coming back, for there is still much for you to learn on JavaScriptIsSexy.com ;).
