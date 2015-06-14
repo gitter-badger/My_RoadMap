@@ -1,0 +1,119 @@
+Javascript For Programmers
+
+The Road Map to JavaScript Attainment
+You will learn just about the full JavaScript language (and jQuery and some HTML5) in 6 to 8 weeks, if you complete this entire course outline. If you don’t have enough time to commit to do all the sections in 6 weeks (which is a relatively aggressive schedule), try to do it in no more than 8 weeks. The longer you take, the harder it will be for you to grasp and remember everything you learn.
+
+.................................................................................................................................................
+
+Weeks 1 and 2 (Introduction, Data Types, Expressions, and Operators
+
+If you do not already know HTML and CSS very well, complete the Web Fundamentals Track on Codecademy.
+Read the Preface and Chapters 1 and 2 of JavaScript: The Definitive Guide.
+Or Read the Introduction and Chapters 1 and 2 of Professional JavaScript for Web Developers.
+
+Work through the Introduction to JavaScript section of the JavaScript Track on Codecademy.
+Read chapters 3 and 4 of JavaScript: The Definitive Guide.
+Or Read the Preface and Chapters 3 and 4 of Professional JavaScript for Web Developers. You can skip the section on “Bitwise Operators”; it is hardly likely you will use those in your JavaScript career.
+
+And again, make sure you stop and write the example code in your browser’s console (or JSFiddle) and experiment—change some of the variables and tweak the code a bit.
+
+Read chapter 5 of JavaScript: The Definitive Guide. No reading for Professional JavaScript for Web Developers, you have learned the material already in the last chapter.
+And work through sections 2 to 5 of the JavaScript Track on Codecademy.
+Weeks 3 and 4 (Objects, Arrays, Functions, DOM, jQuery)
+
+Read my post JavaScript Objects in Detail
+Or read chapter 6 of JavaScript: The Definitive Guide.
+
+Or read chapter 6 of Professional JavaScript for Web Developers. NOTE: Only read the “Understanding Objects” section.
+
+Any of the 3 is fine, although the 2 textbooks go into more detail: the extra detail you can skip confidently, if you read and thoroughly understand my post.
+
+Read chapters 7 and 8 of JavaScript: The Definitive Guide
+Or read chapters 5 and 7 of Professional JavaScript for Web Developers
+
+At this juncture, you should be spending a lot of time writing code in your browser’s console and testing if-else statements, for loops, Arrays, Functions, Objects, and more. It is critically important that you know (and keep practicing) how to code independently (without help from Codecademy) in your browser. By the time you get back to Codecademy, you shouldn’t need any help or hints. Every assignment should be easy for you.
+If you are still struggling with Codecademy, go back to your browser and keep hacking away. This is where you will learn the most. This is analogous to Lebron James honing his skills as a youth in the “streets” (the neighborhood basketball courts), or to Bill Gates hacking away in his basement.
+
+There is tremendous value in your hacking away and learning bit by bit on your own. You have to see the value in this strategy, and you have to embrace it and trust that it will work.
+
+False Sense of Accomplishment When Using Codecademy
+The biggest problem with Codecademy is that the hints and little code snippets help you so much that you have a false sense of accomplishment when you are progressing through the exercises easily. You wouldn’t know it at the time, but much of what you are doing is not on your own.
+
+Now, Codecademy is still great for helping you to learn how to code, particularly in the manner in which it guides you through the process of developing small projects and small applications from very basic code constructs like if statements, for loops, functions, and variables.
+
+Return to Codecademy and complete the JavaScript track by working through sections 6, 7, and 8 (Data Structures to Object 2).
+While you are on Codecademy, go ahead and build the 5 little Basic Projects on the Projects track. After this, you are done with Codecademy. And this is a good thing, because the more you work on your own, the faster you will learn and the better prepared you will be to start programming on your own.
+Read chapters 13, 15, 16, and 19 of JavaScript: The Definitive Guide.
+Or read chapters 8, 9, 10, 11, 13, and 14 of Professional JavaScript for Web Developers. This book does not cover jQuery, and the jQuery coverage on Codecademy is insufficient. Follow this jQuery course—it is free: http://try.jquery.com/
+
+And you can read chapter 19 of JavaScript: The Definitive Guide, if you have the book, for more on jQuery.
+
+Work through the entire jQuery course at http://try.jquery.com/
+Get The Ultimate JavaScript Editor: WebStorm
+
+Before you build your first project, if you plan to be a JavaScript developer or use JavaScript often, you should take a break now and download a trial copy of WebStorm. Learn how to get started with WebStorm here (written especially for this course).
+Or watch these WebStorm tutorials; they might be the best WebStorm tutorials.
+
+WebStorm is unquestionably the absolute best editor (IDE) for programming JavaScript. It costs $49.00 when your 30-day trial period expires, but it is probably the best investment you will make as a JavaScript developer, besides buying the book you are using in this course and learning JavaScript.
+
+Make sure you set WebStorm to use JSHint. JSHint is a “tool to detect errors and potential problems in JavaScript code and to enforce your team’s coding conventions.” The cool thing with using WebStorm is that JSHint automatically adds a red line under errors in your code, just as a spell checker does in a word processing application. So JSHint will show you all the errors in your code (including HTML errors) and make you a better JavaScript programmer, even as you are learning. This is extremely important. You will thank me later after you realize how much WebStorm and JSHint have helped you become a better programmer.
+Moreover, WebStorm is a world-class, professional-grade IDE for coding professional JavaScript web applications, so you will use it a lot. And it integrates Node.js, Git, and other JavaScript frameworks, so even after you have become a rock star JavaScript developer, you will be using it, unless a more compelling JavaScript IDE comes out in the next few months.
+It is fair that I also mention Sublime Text 2, which is the next best JavaScript editor. But it is not as feature rich and complete (even with numerous add-on packages) as WebStorm. I use Sublime Text 2 to make small edits to files of different programming languages, including JS files. But I don’t use it to program full JavaScript web applications.
+Your First Project—A Dynamic Quiz
+
+At this juncture, you have learned enough to build a solid web application that is manageable. Don’t proceed any further until you can successfully build this application I describe below. As I noted earlier, if you are stuck, ask questions on Stack Overflow and reread sections of the book to properly understand the concepts.
+
+You are building a JavaScript quiz application (you will use HTML and CSS as well) that will function as follows:
+
+It is a simple quiz that has radio button choices, and it will show the user her score upon completion.
+The quiz can show any number of questions and any number of choices.
+Tally the user’s score and display the final score on the last page. The last page will only show the score, so remove the last question.
+Use an array to store all the questions. Each question, along with its choices and correct answer, should be stored in an object. The array of questions should look similar to this:
+// Only one question is in this array, but you will add all the questions.var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswer:0}];
+Dynamically (with document.getElementById or jQuery) add the next question and remove the current question from the screen, when the user clicks the “Next” button. The Next button will be the only button to navigate this version of the quiz.
+You can ask for help in the comments below or preferably on Stack Overflow. You are likely to get a prompt and accurate answer on Stack Overflow.
+Weeks 5 and 6 (Regular Expressions, Window Object, Events, jQuery)
+
+Read chapters 10, 14, 17, and 20 of JavaScript: The Definitive Guide.
+Or read chapters 20 and 23 of Professional JavaScript for Web Developers.
+
+Remember to keep typing out all the example codes in Firefox console and tweak each piece of code to experiment with it to really understand how it works and what it does.
+At this point, you should be very comfortable with JavaScript, probably feeling like a Jedi. You are not quite a Jedi yet, you must keep using your newly acquired knowledge and skills as often as possible to keep learning and improving.
+Improve Your Quiz Application From Earlier:
+— Add client-side data validation: make sure the user answers each question before proceeding to the next question.
+— Add a “Back” button to allow the user to go back and change her answer. The user can go back up to the first question. For the questions that the user has answered already, be sure to show the radio button selected, so that the user is not forced to answer the questions again, which she has completed.
+— Use jQuery to add animation (fade out the current question and fade in the next question).
+— Test the quiz on IE 8 and 9, and fix any bugs. This will give you a good workout 😉
+— Store the quiz questions in an external JSON file.
+— Add user authentication: allow users log in, and save their login credentials to local storage (HTML5 browser storage).
+— Use cookies to remember the user, and show a “Welcome, First Name” message when the user returns to the quiz.
+Weeks 7 and, if necessary 8 (Classes, Inheritance, more HTML5)
+
+Read chapters 9, 18, 21, and 22 of JavaScript the Definitive Guide.
+Or read my blog post, OOP In JavaScript: What You NEED to Know.
+
+Or read chapters 6 (only the “Object Creation” and “Inheritance” sections this time) 16, 22, and 24 of Professional JavaScript for Web Developers. NOTE: The reading in this section of the book is the most technical reading you will encounter in this entire road map. It is up to you if you want to read all of it. You should at least learn the Prototype Pattern, Factory Pattern, and Prototypal Inheritance. You don’t have to know all the other patterns.
+
+Improve Your Quiz Application Even Further:
+— Use Twitter Bootstrap for the entire page layout, including the quiz elements to make it look more professional. As an added bonus, use the tabs user interface component from Twitter Bootstrap and show 4 different quizzes, one on each tab.
+— Learn Handlebars.js and add Handlebars.js templating to the quiz. You should no longer have any HTML in your JavaScript code. Your quiz is getting more advanced bit by bit.
+— Keep a record of all the users who take the quiz and show each user how her score ranks amongst the scores from other quiz takers.
+Later (after you have learned Backbone.js and Node.js), you will use these two technologies to refactor your quiz code and turn the same quiz into a sophisticated, single-page, modern web application built with the latest JavaScript frameworks. And you will store the users’ authentication credentials and scores in a MongoDB database.
+Next: Decide on a personal project to build, and start building your project promptly (while everything is fresh in your mind).
+Continue Improving
+
+Learn Backbone.js Completely, if you want to be a front-end developer or learn how to develop web applications with a JavaScript front-end framework.
+Alternatively, if you want to develop complete applications, that is, the front-end and the backend, learn Meteor.js properly.
+
+At this point, you will definitely need my book, MongoDB for JavaScript Applications, to help you build your own jQuery, Backbone.js, Node.js, or Meteor.js applications, since none of the noted resources, or any other book for that matter, cover MongoDB in depth for JavaScript applications.
+Learn Intermediate and Advanced JavaScript
+Learn Node.js Completely and With Confidence
+Words of Encouragement
+
+I wish you success with your studies and in your JavaScript career. Never give up! When you are struggling and feeling incompetent (you may from time to time), always remember that most (probably all) programmers, new and experienced alike, feel this way sometimes, or have felt this way at some point during their programming career.
+
+Remember to dig deep and don’t get frustrated; just carry on and stick with the task until you figure it out, for a worthwhile reward awaits you when you triumph in the end: programming is fun, liberating, and lucrative. The ecstasy one gets from building an application is a powerful feeling that you must experience to understand. Even more satisfying, however, is the empowerment you experience when you realize you have attained the skill and knowledge to build applications from scratch, to change the world with any idea you dream up.
+
+The moment will come when you realize that all the difficulties you endured were worth while. Just as the millions before you have triumphed, so too, you will vanquish the toughest bugs, master the incomprehensible topics, and overcome the seemingly impossible tasks.
+
+Feel free to share your links with us below when you build something, even if it is a tiny, itsy-bitsy project. :)
